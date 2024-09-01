@@ -2,6 +2,17 @@
 
 ### Usage
 
+#### Installing
+```sh
+# using dotnet CLI
+dotnet add package devcutler.Firewood
+```
+
+```xml
+<!-- including in .csproj file -->
+<PackageReference Include="devcutler.Firewood" Version="1.0.0" />
+```
+
 #### Instantiating
 ```cs
 using Firewood;
